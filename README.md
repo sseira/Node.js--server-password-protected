@@ -19,5 +19,6 @@ Add these environment variables into Heroku when in production
 ```sh
 $ npm install
 $ nodemon ./server.js localhost 5000
+-- or
 $ npm start
 ```
