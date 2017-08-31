@@ -1,0 +1,30 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "A simple server built to connect devices",
+  "engines": {
+    "node": "4.5.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "express-session": "^1.15.5",
+    "fast-crc32c": "^1.0.4",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

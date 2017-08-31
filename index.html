@@ -1,0 +1,29 @@
+INDEX
+
+<form action="/login" method="post">
+	<div>
+	<label>Username:</label>
+	<input type="text" name="username"/><br/>
+	</div>
+	<div>
+	<label>Password:</label>
+	<input type="password" name="password"/>
+	</div>
+	<div>
+	<input type="submit" value="Submit"/>
+	</div>
+</form>
+
+
+<div id="error">
+  <span>Wrong username / password</span>
+</div>
+
+<script>
+	var searchParams = new URLSearchParams(window.location.search); //?anything=123
+	if (searchParams.get("login") == 'error') {
+	    document.getElementById('error').style.display = "block";
+	} else {
+		document.getElementById('error').style.display = "none";
+	}
+</script>
